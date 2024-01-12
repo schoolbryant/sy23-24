@@ -62,7 +62,7 @@ Partial Class Form1
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
         Me.NewToolStripMenuItem.Text = "New"
         '
         'SaveToolStripMenuItem
@@ -73,9 +73,11 @@ Partial Class Form1
         '
         'PictureBox1
         '
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox1.Location = New System.Drawing.Point(324, 46)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(139, 123)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
@@ -109,7 +111,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(117, 341)
+        Me.Label4.Location = New System.Drawing.Point(117, 348)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(134, 20)
         Me.Label4.TabIndex = 5
@@ -118,7 +120,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(107, 374)
+        Me.Label5.Location = New System.Drawing.Point(107, 388)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(144, 20)
         Me.Label5.TabIndex = 6
@@ -154,7 +156,7 @@ Partial Class Form1
         '
         'field5
         '
-        Me.field5.Location = New System.Drawing.Point(296, 374)
+        Me.field5.Location = New System.Drawing.Point(305, 388)
         Me.field5.Name = "field5"
         Me.field5.Size = New System.Drawing.Size(125, 27)
         Me.field5.TabIndex = 11
