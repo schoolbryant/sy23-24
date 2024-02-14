@@ -96,6 +96,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Productcontrol.Designer.vb">
+      <DependentUpon>Productcontrol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Productcontrol.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -106,6 +112,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productcontrol.resx">
+      <DependentUpon>Productcontrol.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -119,16 +128,41 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="Resources\aquafina" />
+    <None Include="Resources\cheeto puffs" />
+    <None Include="Resources\coke" />
+    <None Include="Resources\diet coke" />
     <None Include="Resources\dollar coin" />
+    <None Include="Resources\red bull" />
+    <None Include="Resources\skittles" />
+    <None Include="Resources\slim jim" />
+    <None Include="Resources\snickers" />
+    <None Include="Resources\starburst" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\gatorade" />
+    <None Include="Resources\lays" />
+    <None Include="Resources\nature valley" />
     <None Include="Resources\nickle.jfif" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dime.jfif" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\pringles" />
     <None Include="Resources\quarter.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doritos.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheetos.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheetos1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oreos.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
