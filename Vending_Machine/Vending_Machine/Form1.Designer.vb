@@ -133,7 +133,7 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.BackgroundImage = Global.Vending_Machine.My.Resources.Resources.quarter
+        Me.Button4.BackgroundImage = Global.Vending_Machine.My.Resources.Resources.nickle
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button4.Location = New System.Drawing.Point(751, 122)
         Me.Button4.Name = "Button4"
